@@ -32,65 +32,6 @@ Model: Represents the data structure and business logic handled by Spring Boot.
 View: The user interface built with React.js and styled using Tailwind CSS.
 Controller: Manages user input and interactions, routing data between the frontend and backend.
 
-#telecure/
-├── frontend/
-│   ├── public/
-│   │   └── index.html
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Admin/
-│   │   │   │   ├── AdminDashboard.jsx
-│   │   │   │   ├── ManageDoctors.jsx
-│   │   │   │   ├── ManagePatients.jsx
-│   │   │   │   └── ManageAppointments.jsx
-│   │   │   ├── Doctor/
-│   │   │   │   ├── DoctorDashboard.jsx
-│   │   │   │   └── ManageAppointments.jsx
-│   │   │   ├── Patient/
-│   │   │   │   ├── PatientDashboard.jsx
-│   │   │   │   ├── BookAppointment.jsx
-│   │   │   │   └── ViewAppointments.jsx
-│   │   │   ├── Pharmacist/
-│   │   │   │   ├── PharmacistDashboard.jsx
-│   │   │   │   └── ManagePrescriptions.jsx
-│   │   │   ├── Auth/
-│   │   │   │   ├── Login.jsx
-│   │   │   │   └── Register.jsx
-│   │   │   ├── Common/
-│   │   │   │   ├── Navbar.jsx
-│   │   │   │   ├── ProtectedRoute.jsx
-│   │   │   │   └── RoleSwitcher.jsx
-│   │   ├── mockData/
-│   │   │   ├── mockDoctors.js
-│   │   │   ├── mockPatients.js
-│   │   │   └── mockAppointments.js
-│   │   ├── services/
-│   │   │   └── api.js
-│   │   ├── styles/
-│   │   │   └── index.css
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── ...
-│   ├── tailwind.config.js
-│   ├── package.json
-│   └── README.md
-├── backend/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/telecure/
-│   │   │   │   ├── controllers/
-│   │   │   │   ├── models/
-│   │   │   │   ├── repositories/
-│   │   │   │   ├── services/
-│   │   │   │   └── TeleCureApplication.java
-│   │   │   └── resources/
-│   │   │       ├── application.properties
-│   │   │       └── ...
-│   ├── pom.xml
-│   └── README.md
-├── .gitignore
-└── LICENSE
-
 Admin Dashboard: http://localhost:5173/admin
 Doctor Dashboard: http://localhost:5173/doctor
 Patient Dashboard: http://localhost:5173/patient
