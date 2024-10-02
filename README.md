@@ -91,9 +91,9 @@ Controller: Manages user input and interactions, routing data between the fronte
 ├── .gitignore
 └── LICENSE
 
-Admin Dashboard: http://localhost:3000/admin
-Doctor Dashboard: http://localhost:3000/doctor
-Patient Dashboard: http://localhost:3000/patient
+Admin Dashboard: http://localhost:5173/admin
+Doctor Dashboard: http://localhost:5173/doctor
+Patient Dashboard: http://localhost:5173/patient
 
 
 Admin Actions:
