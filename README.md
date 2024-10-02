@@ -32,9 +32,9 @@ Model: Represents the data structure and business logic handled by Spring Boot.
 View: The user interface built with React.js and styled using Tailwind CSS.
 Controller: Manages user input and interactions, routing data between the frontend and backend.
 
-Admin Dashboard: http://localhost:3000/admin
-Doctor Dashboard: http://localhost:3000/doctor
-Patient Dashboard: http://localhost:3000/patient
+Admin Dashboard: http://localhost:5173/admin
+Doctor Dashboard: http://localhost:5173/doctor
+Patient Dashboard: http://localhost:5173/patient
 
 Admin Actions:
 
