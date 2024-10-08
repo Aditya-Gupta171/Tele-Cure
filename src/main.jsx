@@ -1,7 +1,8 @@
 // src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client'; // Update this import
-import './styles/index.css';
+// import './styles/index.css';
+import './index.css'
 import App from './App';
 
 // Create a root.
