@@ -17,10 +17,10 @@ jobs:
       - name: Setup Node.js 20
         uses: actions/setup-node@v3
         with:
-          node-version: '20'  # Manually setting Node.js 20
+          node-version: '20'  # Explicitly setting Node.js 20
 
       - name: Install dependencies
-        run: npm install  # Better than using external action for more control
+        run: npm install  # Running npm install
 
       - name: Build project
         run: npm run build
@@ -49,3 +49,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # Force Node.js 20 for all actions
