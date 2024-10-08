@@ -9,6 +9,7 @@ import AdminDashboard from './components/Admin/AdminDashboard';
 import DoctorDashboard from './components/Doctor/DoctorDashboard';
 import ProtectedRoute from './components/Common/ProtectedRoute';
 import RoleSwitcher from './components/Common/RoleSwitcher'; // Import RoleSwitcher
+import PatientDashboard from './components/patient/PatientDashboard';
 
 function App() {
   return (
@@ -45,7 +46,7 @@ function App() {
             path="/patient/*"
             element={
               <ProtectedRoute role="patient">
-                
+                <PatientDashboard/>
               </ProtectedRoute>
             }
           />
